@@ -1,0 +1,29 @@
+
+fpadd.o:     file format elf64-littleriscv
+
+
+Disassembly of section .text:
+
+0000000000000000 <main>:
+   0:	fd010113          	addi	sp,sp,-48
+   4:	02113423          	sd	ra,40(sp)
+   8:	02813023          	sd	s0,32(sp)
+   c:	03010413          	addi	s0,sp,48
+  10:	000007b7          	lui	a5,0x0
+  14:	0007b783          	ld	a5,0(a5) # 0 <main>
+  18:	fef43423          	sd	a5,-24(s0)
+  1c:	000007b7          	lui	a5,0x0
+  20:	0007b783          	ld	a5,0(a5) # 0 <main>
+  24:	fef43023          	sd	a5,-32(s0)
+  28:	fe043583          	ld	a1,-32(s0)
+  2c:	fe843503          	ld	a0,-24(s0)
+  30:	00000097          	auipc	ra,0x0
+  34:	000080e7          	jalr	ra # 30 <main+0x30>
+  38:	00050793          	mv	a5,a0
+  3c:	fcf43c23          	sd	a5,-40(s0)
+  40:	00000793          	li	a5,0
+  44:	00078513          	mv	a0,a5
+  48:	02813083          	ld	ra,40(sp)
+  4c:	02013403          	ld	s0,32(sp)
+  50:	03010113          	addi	sp,sp,48
+  54:	00008067          	ret

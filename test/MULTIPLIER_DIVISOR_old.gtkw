@@ -1,0 +1,79 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat Aug 13 11:49:58 2022
+[*]
+[dumpfile] "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/test/multiplier_divisor.vcd"
+[dumpfile_mtime] "Sat Aug 13 11:48:16 2022"
+[dumpfile_size] 1582211
+[savefile] "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/test/MULTIPLIER_DIVISOR.gtkw"
+[timestart] 7096800000
+[size] 1920 1017
+[pos] -1 -1
+*-26.395531 9040600000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] multiplier_divisor_tb.
+[sst_width] 214
+[signals_width] 548
+[sst_expanded] 1
+[sst_vpaned_height] 299
+@420
+multiplier_divisor_tb.a[63:0]
+multiplier_divisor_tb.b[63:0]
+@28
+multiplier_divisor_tb.clear
+multiplier_divisor_tb.clock
+multiplier_divisor_tb.isd
+multiplier_divisor_tb.ism
+multiplier_divisor_tb.md_isactive
+@22
+multiplier_divisor_tb.result[127:0]
+@200
+-DUT
+@22
+multiplier_divisor_tb.dut.a[63:0]
+multiplier_divisor_tb.dut.accumulator_in[127:0]
+multiplier_divisor_tb.dut.accumulator_out[127:0]
+@28
+multiplier_divisor_tb.dut.add_or_sub
+@22
+multiplier_divisor_tb.dut.addsub_out[63:0]
+@28
+multiplier_divisor_tb.dut.and_ctrl
+@22
+multiplier_divisor_tb.dut.b[63:0]
+multiplier_divisor_tb.dut.b_in[63:0]
+multiplier_divisor_tb.dut.b_out[63:0]
+@28
+multiplier_divisor_tb.dut.carryout
+multiplier_divisor_tb.dut.clear
+multiplier_divisor_tb.dut.clock
+@22
+multiplier_divisor_tb.dut.counter_add1[6:0]
+@25
+multiplier_divisor_tb.dut.counter_in[6:0]
+@24
+multiplier_divisor_tb.dut.counter_out[6:0]
+@28
+multiplier_divisor_tb.dut.isd
+multiplier_divisor_tb.dut.ism
+multiplier_divisor_tb.dut.ismdop
+multiplier_divisor_tb.dut.md_isactive
+@22
+multiplier_divisor_tb.dut.operand_1[63:0]
+multiplier_divisor_tb.dut.operand_2[63:0]
+multiplier_divisor_tb.dut.proc_accumulator_in[127:0]
+@28
+multiplier_divisor_tb.dut.proc_add_or_sub
+multiplier_divisor_tb.dut.proc_and_ctrl
+@22
+multiplier_divisor_tb.dut.proc_b_in[63:0]
+multiplier_divisor_tb.dut.proc_counter_in[6:0]
+@28
+multiplier_divisor_tb.dut.proc_md_isactive
+@22
+multiplier_divisor_tb.dut.proc_operand_1[63:0]
+multiplier_divisor_tb.dut.proc_result[127:0]
+multiplier_divisor_tb.dut.result[127:0]
+@28
+multiplier_divisor_tb.dut.signs_ab[1:0]
+[pattern_trace] 1
+[pattern_trace] 0

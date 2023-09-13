@@ -1,0 +1,63 @@
+$date
+  Sat Jun 25 17:03:28 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module forwarding_unit_branch_tb $end
+$var reg 5 ! register_rs2_if_id[4:0] $end
+$var reg 5 " register_rs1_if_id[4:0] $end
+$var reg 5 # register_rd_ex_mem[4:0] $end
+$var reg 1 $ ex_mem_regwrite $end
+$var reg 1 % sel_fwd_branch_1 $end
+$var reg 1 & sel_fwd_branch_2 $end
+$scope module dut $end
+$var reg 5 ' register_rs2_if_id[4:0] $end
+$var reg 5 ( register_rs1_if_id[4:0] $end
+$var reg 5 ) register_rd_ex_mem[4:0] $end
+$var reg 1 * ex_mem_regwrite $end
+$var reg 1 + sel_fwd_branch_1 $end
+$var reg 1 , sel_fwd_branch_2 $end
+$var reg 1 - internal_sel_fwd_branch_1 $end
+$var reg 1 . internal_sel_fwd_branch_2 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+bUUUUU !
+bUUUUU "
+bUUUUU #
+U$
+0%
+0&
+bUUUUU '
+bUUUUU (
+bUUUUU )
+U*
+0+
+0,
+0-
+0.
+#10000000
+b00000 !
+b00010 "
+b00010 #
+1$
+1%
+b00000 '
+b00010 (
+b00010 )
+1*
+1+
+1-
+#110000000
+#120000000
+#220000000
+#230000000

@@ -1,0 +1,294 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Fri Sep 16 03:56:12 2022
+[*]
+[dumpfile] "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/test/datapath_arithm.vcd"
+[dumpfile_mtime] "Fri Sep 16 03:55:29 2022"
+[dumpfile_size] 6628423
+[savefile] "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/test/pipeline_arithm.gtkw"
+[timestart] 0
+[size] 1920 1017
+[pos] -87 -87
+*-29.837997 3005000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] datapath_tb.
+[treeopen] datapath_tb.dut.
+[treeopen] datapath_tb.dut.alu.
+[treeopen] datapath_tb.dut.data_memory_interface.
+[sst_width] 292
+[signals_width] 530
+[sst_expanded] 1
+[sst_vpaned_height] 630
+@28
+datapath_tb.dut.clock
+datapath_tb.dut.reset
+@22
+datapath_tb.dut.pc4[63:0]
+datapath_tb.dut.new_pc[63:0]
+datapath_tb.dut.pc[63:0]
+datapath_tb.dut.if_ins_mem_output[31:0]
+datapath_tb.dut.ins_mem_output[31:0]
+@200
+-
+@28
+datapath_tb.dut.if_flush
+@22
+[color] 2
+datapath_tb.dut.if_id_instruction[31:0]
+datapath_tb.dut.if_id_pc[63:0]
+@200
+--- Control Unit outputs --
+@28
+datapath_tb.dut.aluop[1:0]
+datapath_tb.dut.alusrc1[1:0]
+datapath_tb.dut.alusrc2[1:0]
+datapath_tb.dut.memread
+datapath_tb.dut.memtoreg
+datapath_tb.dut.memwrite
+datapath_tb.dut.regwrite
+datapath_tb.dut.id_flush
+datapath_tb.dut.isbranch
+datapath_tb.dut.jump
+datapath_tb.dut.isjalr
+@200
+----------------------------
+@28
+datapath_tb.dut.branchcmp
+datapath_tb.dut.pcsrc
+datapath_tb.dut.stall_hzd
+datapath_tb.dut.stall
+@22
+datapath_tb.dut.immediate[63:0]
+datapath_tb.dut.shifted_imm[63:0]
+datapath_tb.dut.branch_address[63:0]
+datapath_tb.dut.jalr_address[63:0]
+datapath_tb.dut.jump_target_address[63:0]
+datapath_tb.dut.register_file_output_1[63:0]
+datapath_tb.dut.register_file_output_2[63:0]
+@200
+-
+@28
+datapath_tb.dut.id_ex_flush
+datapath_tb.dut.id_aluop[1:0]
+datapath_tb.dut.id_alusrc1[1:0]
+datapath_tb.dut.id_alusrc2[1:0]
+datapath_tb.dut.id_memread
+datapath_tb.dut.id_memtoreg
+datapath_tb.dut.id_memwrite
+datapath_tb.dut.id_regwrite
+@200
+--- ID/EX Regs --
+@28
+datapath_tb.dut.id_ex_insn_bit3
+datapath_tb.dut.id_ex_insn_bit5
+datapath_tb.dut.id_ex_insn_bit25
+datapath_tb.dut.id_ex_insn_bit30
+datapath_tb.dut.id_ex_memread
+datapath_tb.dut.id_ex_memtoreg
+datapath_tb.dut.id_ex_memwrite
+datapath_tb.dut.id_ex_regwrite
+@22
+datapath_tb.dut.id_ex_pc[63:0]
+datapath_tb.dut.id_ex_register_rd[4:0]
+datapath_tb.dut.id_ex_register_rs1[4:0]
+datapath_tb.dut.id_ex_register_rs2[4:0]
+datapath_tb.dut.id_ex_register_file_output_1[63:0]
+datapath_tb.dut.id_ex_register_file_output_2[63:0]
+datapath_tb.dut.id_ex_immediate[63:0]
+@28
+datapath_tb.dut.id_ex_funct3[2:0]
+datapath_tb.dut.id_ex_alusrc1[1:0]
+datapath_tb.dut.id_ex_alusrc2[1:0]
+datapath_tb.dut.id_ex_aluop[1:0]
+@200
+--------------------------
+@28
+datapath_tb.dut.sel_fwd_1[1:0]
+datapath_tb.dut.sel_fwd_2[1:0]
+datapath_tb.dut.sel_fwd_branch_1
+datapath_tb.dut.sel_fwd_branch_2
+@22
+datapath_tb.dut.mux_fwd_1_out[63:0]
+datapath_tb.dut.mux_fwd_2_out[63:0]
+@200
+-
+@22
+datapath_tb.dut.alu_func[4:0]
+datapath_tb.dut.alu_operand_1[63:0]
+datapath_tb.dut.alu_operand_2[63:0]
+@23
+datapath_tb.dut.alu_output[63:0]
+@28
+[color] 2
+datapath_tb.dut.stall_alu
+@22
+[color] 2
+datapath_tb.dut.if_id_instruction[31:0]
+@200
+-alu internal
+@28
+datapath_tb.dut.alu.d_or_w
+datapath_tb.dut.alu.isd
+datapath_tb.dut.alu.ism
+@200
+------------------
+-
+@28
+datapath_tb.dut.ex_mem_flush
+datapath_tb.dut.ex_regwrite
+datapath_tb.dut.ex_memwrite
+datapath_tb.dut.ex_memtoreg
+datapath_tb.dut.ex_memread
+@200
+--- EX/MEM Regs --
+@28
+datapath_tb.dut.ex_mem_funct3[2:0]
+datapath_tb.dut.ex_mem_memtoreg
+datapath_tb.dut.ex_mem_memwrite
+datapath_tb.dut.ex_mem_regwrite
+datapath_tb.dut.ex_mem_memread
+@22
+datapath_tb.dut.ex_mem_register_rd[4:0]
+datapath_tb.dut.ex_mem_mux_fwd_2_out[63:0]
+datapath_tb.dut.ex_mem_alu_output[63:0]
+@200
+------------------
+@22
+datapath_tb.dut.datamem_output[63:0]
+@28
+datapath_tb.dut.debug_misaligned
+@200
+-MEM/WB Regs
+@22
+datapath_tb.dut.mem_wb_alu_output[63:0]
+datapath_tb.dut.mem_wb_datamem_output[63:0]
+@28
+datapath_tb.dut.mem_wb_regwrite
+datapath_tb.dut.mem_wb_memtoreg
+@22
+datapath_tb.dut.mem_wb_register_rd[4:0]
+@200
+-------------------------
+@22
+datapath_tb.dut.mux_wb_output[63:0]
+@200
+-DataMem (Hex)
+@22
+[color] 2
+datapath_tb.dut.data_memory_interface.datamem_0.membank_506[7:0]
+[color] 2
+datapath_tb.dut.data_memory_interface.datamem_1.membank_506[7:0]
+[color] 2
+datapath_tb.dut.data_memory_interface.datamem_2.membank_506[7:0]
+[color] 2
+datapath_tb.dut.data_memory_interface.datamem_3.membank_506[7:0]
+datapath_tb.dut.data_memory_interface.datamem_4.membank_506[7:0]
+datapath_tb.dut.data_memory_interface.datamem_5.membank_506[7:0]
+datapath_tb.dut.data_memory_interface.datamem_6.membank_506[7:0]
+datapath_tb.dut.data_memory_interface.datamem_7.membank_506[7:0]
+@200
+-
+@22
+[color] 2
+datapath_tb.dut.data_memory_interface.datamem_0.membank_507[7:0]
+[color] 2
+datapath_tb.dut.data_memory_interface.datamem_1.membank_507[7:0]
+[color] 2
+datapath_tb.dut.data_memory_interface.datamem_2.membank_507[7:0]
+[color] 2
+datapath_tb.dut.data_memory_interface.datamem_3.membank_507[7:0]
+datapath_tb.dut.data_memory_interface.datamem_4.membank_507[7:0]
+datapath_tb.dut.data_memory_interface.datamem_5.membank_507[7:0]
+datapath_tb.dut.data_memory_interface.datamem_6.membank_507[7:0]
+datapath_tb.dut.data_memory_interface.datamem_7.membank_507[7:0]
+@200
+-
+@22
+[color] 2
+datapath_tb.dut.data_memory_interface.datamem_0.membank_508[7:0]
+[color] 2
+datapath_tb.dut.data_memory_interface.datamem_1.membank_508[7:0]
+[color] 2
+datapath_tb.dut.data_memory_interface.datamem_2.membank_508[7:0]
+[color] 2
+datapath_tb.dut.data_memory_interface.datamem_3.membank_508[7:0]
+datapath_tb.dut.data_memory_interface.datamem_4.membank_508[7:0]
+datapath_tb.dut.data_memory_interface.datamem_5.membank_508[7:0]
+datapath_tb.dut.data_memory_interface.datamem_6.membank_508[7:0]
+datapath_tb.dut.data_memory_interface.datamem_7.membank_508[7:0]
+@200
+-
+@22
+datapath_tb.dut.data_memory_interface.datamem_0.membank_509[7:0]
+datapath_tb.dut.data_memory_interface.datamem_1.membank_509[7:0]
+datapath_tb.dut.data_memory_interface.datamem_2.membank_509[7:0]
+datapath_tb.dut.data_memory_interface.datamem_3.membank_509[7:0]
+datapath_tb.dut.data_memory_interface.datamem_4.membank_509[7:0]
+datapath_tb.dut.data_memory_interface.datamem_5.membank_509[7:0]
+datapath_tb.dut.data_memory_interface.datamem_6.membank_509[7:0]
+datapath_tb.dut.data_memory_interface.datamem_7.membank_509[7:0]
+@200
+-
+-REGBANK
+-
+@22
+datapath_tb.dut.debug_regbank_unit.x0_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x1_reg_data[63:0]
+@420
+datapath_tb.dut.debug_regbank_unit.x2_reg_data[63:0]
+@22
+datapath_tb.dut.debug_regbank_unit.x3_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x4_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x5_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x6_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x7_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x8_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x9_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x10_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x11_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x12_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x13_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x14_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x15_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x16_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x17_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x18_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x19_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x20_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x21_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x22_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x23_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x24_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x25_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x26_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x27_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x28_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x29_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x30_reg_data[63:0]
+datapath_tb.dut.debug_regbank_unit.x31_reg_data[63:0]
+@200
+-
+-
+-DATAMEM Inteface
+@22
+datapath_tb.dut.data_memory_interface.byte_address[63:0]
+@28
+datapath_tb.dut.data_memory_interface.byte_offset[2:0]
+datapath_tb.dut.data_memory_interface.clock
+datapath_tb.dut.data_memory_interface.data_format[2:0]
+datapath_tb.dut.data_memory_interface.debug_internal_misaligned
+datapath_tb.dut.data_memory_interface.debug_misaligned
+@22
+datapath_tb.dut.data_memory_interface.load[7:0]
+datapath_tb.dut.data_memory_interface.membank_address[63:0]
+datapath_tb.dut.data_memory_interface.membank_in[63:0]
+datapath_tb.dut.data_memory_interface.membank_out[63:0]
+@28
+datapath_tb.dut.data_memory_interface.memread
+datapath_tb.dut.data_memory_interface.memwrite
+@22
+datapath_tb.dut.data_memory_interface.proc_load[7:0]
+datapath_tb.dut.data_memory_interface.proc_membank_in[63:0]
+datapath_tb.dut.data_memory_interface.read_data[63:0]
+datapath_tb.dut.data_memory_interface.write_data[63:0]
+[pattern_trace] 1
+[pattern_trace] 0

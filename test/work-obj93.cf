@@ -1,0 +1,143 @@
+v 4
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/multiplier_divider.vhd" "8ca6c247fc13d575b101b40eea66625b41cccba9" "20220916035703.948":
+  entity multiplier_divider at 19( 984) + 0 on 3160;
+  architecture behavioural of multiplier_divider at 42( 1489) + 0 on 3161;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/datapath.vhd" "f9f5eeeff6148f1cb31cc4c066e06a62f1e730b1" "20220916035704.029":
+  entity datapath at 1( 0) + 0 on 3182;
+  architecture structural of datapath at 14( 236) + 0 on 3183;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/datamem_interface.vhd" "7250fd0074aba685627582fc0acf4952fa6c3e1e" "20220916035704.008":
+  entity datamem_interface at 1( 0) + 0 on 3178;
+  architecture behavioural of datamem_interface at 18( 501) + 0 on 3179;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/MEM_WB_DIV.vhd" "24678243b8281d1986e61e18f0d4c5dd703f1750" "20220916035703.989":
+  entity mem_wb_div at 3( 32) + 0 on 3174;
+  architecture behavioral of mem_wb_div at 33( 710) + 0 on 3175;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/ALU.vhd" "e0dec7623350cbf0fe20adf38bc3ddac29d0fd2c" "20220916035703.979":
+  entity alu at 1( 0) + 0 on 3168;
+  architecture separated_mul_div of alu at 19( 474) + 0 on 3169;
+  architecture behavioral of alu at 311( 11063) + 0 on 3170;
+  configuration alu_default_cfg at 574( 20344) + 0 on 3171;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/divisor.vhd" "8c7c8044f604411a78250714e60f24049d0f4080" "20220912124841.590":
+  entity divisor at 3( 29) + 0 on 1497;
+  architecture behavioural of divisor at 24( 489) + 0 on 1498;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/multiplier_divisor.vhd" "af933ee70e3f66b9ba30ffdb01ee8f19e9982b95" "20220912124841.575":
+  entity multiplier_divisor at 3( 40) + 0 on 1493;
+  architecture behavioural of multiplier_divisor at 100( 2883) + 0 on 1494;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/control_unit.vhd" "7bfdd94089dd54ba0b99d2fab849691ee15900b0" "20220916035703.935":
+  entity control_unit at 3( 34) + 0 on 3156;
+  architecture behavioral of control_unit at 26( 629) + 0 on 3157;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/forwarding_unit_ALU.vhd" "2a21e7edf351b2f26c99b2af8d2eb1366f2abc52" "20220916035703.924":
+  entity forwarding_unit_alu at 1( 0) + 0 on 3152;
+  architecture structural of forwarding_unit_alu at 20( 598) + 0 on 3153;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/hazard_unit.vhd" "4508639e685945b5cc98a2162929e2ab071410c8" "20220916035703.917":
+  entity hazard_unit at 1( 0) + 0 on 3148;
+  architecture structural of hazard_unit at 22( 539) + 0 on 3149;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/branch_address_unit.vhd" "d84aa18e76fa1a163417e69c5bec00145270e55d" "20220916035703.909":
+  entity branch_address_unit at 1( 0) + 0 on 3144;
+  architecture behavioral of branch_address_unit at 13( 283) + 0 on 3145;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/IF_ID_DIV.vhd" "803dde49bc61985741ada58615656eca4fc3a5c8" "20220916035703.898":
+  entity if_id_div at 3( 31) + 0 on 3140;
+  architecture behavioral of if_id_div at 27( 501) + 0 on 3141;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/program_counter.vhd" "56062541d6e350d47c58cf9e7c258f994e3c4d4f" "20220916035703.889":
+  entity program_counter at 3( 37) + 0 on 3136;
+  architecture behavioral of program_counter at 18( 333) + 0 on 3137;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/AND_1xN.vhd" "8a168fada19d44470181eb2696d7e9a66564e53c" "20220916035703.879":
+  entity and_1xn at 5( 142) + 0 on 3132;
+  architecture structure of and_1xn at 17( 393) + 2 on 3133;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/adder_subtractor_WordOvrf.vhd" "7a4c54c089fb9b698ccd7bce9aec8e82d7c5d232" "20220916035703.871":
+  entity adder_subtr_w_ovrf at 1( 0) + 0 on 3128;
+  architecture structure of adder_subtr_w_ovrf at 13( 332) + 0 on 3129;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/FullAdder.vhd" "47c0f2f2c8ec6f367e3313696fc28a68597ba53e" "20220916035703.864":
+  entity fulladder at 1( 0) + 0 on 3124;
+  architecture behavioral of fulladder at 13( 231) + 0 on 3125;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/mux_EX_MEM_Flush.vhd" "9e4f308f90ffe89f5a52583a0f0a702e7d920804" "20220916035703.853":
+  entity mux_ex_mem_flush at 3( 39) + 1 on 3102;
+  architecture behavioral of mux_ex_mem_flush at 14( 342) + 1 on 3103;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/mux_32_1.vhd" "323decf437e52fbbe04f85042153e843af0a78da" "20220916035703.847":
+  entity mux_32_1 at 3( 30) + 0 on 3098;
+  architecture behavioral of mux_32_1 at 15( 563) + 0 on 3099;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/mux_2_1_32b.vhd" "9d7a31b5b930309ef0eab877c50e8e74aeec9224" "20220916035703.840":
+  entity mux_2_1_32b at 1( 0) + 0 on 3094;
+  architecture behavioral of mux_2_1_32b at 12( 226) + 0 on 3095;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/common.vhd" "694f48604b6d6d50249eca1f46a2a5008021b10f" "20220916035703.832":
+  package common at 1( 0) + 0 on 3091;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/mux_2_1_64b.vhd" "df77937c2a4a5daa5cf82efb66e31a5739c0c595" "20220916035703.836":
+  entity mux_2_1_64b at 1( 0) + 0 on 3092;
+  architecture behavioral of mux_2_1_64b at 12( 226) + 0 on 3093;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/mux_3_1.vhd" "42821afe488c5107bbc9efb1c1a1b54f36315f7b" "20220916035703.843":
+  entity mux_3_1 at 1( 0) + 0 on 3096;
+  architecture behavioral of mux_3_1 at 12( 246) + 0 on 3097;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/mux_ID_EX_Flush.vhd" "f0caa1f37c427bf8c7ff0988166d1e429aa921fe" "20220916035703.850":
+  entity mux_id_ex_flush at 3( 38) + 1 on 3100;
+  architecture behavioral of mux_id_ex_flush at 14( 457) + 1 on 3101;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/reg_pkg.vhd" "c8d504bd6c9edc6c0c4057841256156e0dab664d" "20220916035703.860":
+  entity reg_64b at 7( 174) + 0 on 3104;
+  architecture description of reg_64b at 18( 390) + 0 on 3105;
+  entity reg_32b at 40( 948) + 0 on 3106;
+  architecture description of reg_32b at 51( 1164) + 0 on 3107;
+  entity reg_64b_rising_edge at 73( 1719) + 0 on 3108;
+  architecture description of reg_64b_rising_edge at 84( 1959) + 0 on 3109;
+  entity reg_1b at 106( 2528) + 0 on 3110;
+  architecture description of reg_1b at 117( 2702) + 0 on 3111;
+  entity reg_2b at 139( 3206) + 0 on 3112;
+  architecture description of reg_2b at 150( 3418) + 0 on 3113;
+  entity reg_3b at 172( 3943) + 0 on 3114;
+  architecture description of reg_3b at 183( 4155) + 0 on 3115;
+  entity reg_5b at 205( 4682) + 0 on 3116;
+  architecture description of reg_5b at 216( 4894) + 0 on 3117;
+  entity reg_7b at 238( 5425) + 0 on 3118;
+  architecture description of reg_7b at 249( 5637) + 0 on 3119;
+  entity reg_128b at 273( 6176) + 0 on 3120;
+  architecture description of reg_128b at 284( 6396) + 0 on 3121;
+  entity reg_65b at 307( 6949) + 0 on 3122;
+  architecture description of reg_65b at 318( 7165) + 0 on 3123;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/adder_subtractor.vhd" "b862ca36b086b66d11ded5dd8f3550fce9e2099f" "20220916035703.868":
+  entity adder_subtr at 1( 0) + 0 on 3126;
+  architecture structure of adder_subtr at 13( 309) + 0 on 3127;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/ADDER_7b.vhd" "8a248e8a382250b279a251367542def6e4a97e30" "20220912114224.387":
+  entity adder_7b at 1( 0) + 0 on 1087;
+  architecture behavioral of adder_7b at 13( 285) + 0 on 1088;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/register_file.vhd" "5487a7567935a955dae139261b6e134bf1c17291" "20220916035703.884":
+  entity register_file at 1( 0) + 0 on 3134;
+  architecture behavioral of register_file at 202( 12135) + 0 on 3135;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/instruction_memory.vhd" "be39ee5bd3c7117c27cc2f5f6b14f037c63b881f" "20220916035703.895":
+  entity instruction_memory at 5( 133) + 0 on 3138;
+  architecture behavioral of instruction_memory at 18( 393) + 0 on 3139;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/imm_generator.vhd" "413d9cf8b3076d8171320e2f7de4aead7648e1ca" "20220916035703.904":
+  entity imm_generator at 3( 35) + 0 on 3142;
+  architecture behavioral of imm_generator at 16( 323) + 0 on 3143;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/ID_EX_DIV.vhd" "ce021f13b75bccaeb5631511c17a4c9bc2721b7e" "20220916035703.914":
+  entity id_ex_div at 3( 31) + 0 on 3146;
+  architecture behavioral of id_ex_div at 62( 2279) + 0 on 3147;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/forwarding_unit_branch.vhd" "d8883a9741c1dc02759d7992c6653c5e2b7dfc2b" "20220916035703.921":
+  entity forwarding_unit_branch at 1( 0) + 0 on 3150;
+  architecture structural of forwarding_unit_branch at 18( 415) + 0 on 3151;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/EX_MEM_DIV.vhd" "38a027a5921c418d59c17e5ad16df17cc4fad16f" "20220916035703.928":
+  entity ex_mem_div at 3( 32) + 0 on 3154;
+  architecture behavioral of ex_mem_div at 39( 946) + 0 on 3155;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/branch_comparator.vhd" "7169ed05ca922a6a09f5a40f040199a82c39762c" "20220916035703.940":
+  entity branch_comparator at 13( 810) + 0 on 3158;
+  architecture structural of branch_comparator at 31( 1627) + 0 on 3159;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/multiplier.vhd" "20483135dab9f40f9e8df8a405abae459bd612d8" "20220916035703.955":
+  entity booth_multiplier at 18( 1184) + 0 on 3162;
+  architecture booths_algorithm of booth_multiplier at 38( 1585) + 0 on 3163;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/ALU_control_unit.vhd" "04c221f7c7ce70fc57d556fa66e85300e2fa4ecf" "20220916035703.969":
+  entity alu_control at 3( 38) + 0 on 3166;
+  architecture behavioral of alu_control at 22( 453) + 0 on 3167;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/exception_unit.vhd" "8869cdc459f880c9b6ffd8d7634951ddcee0a834" "20220916035703.985":
+  entity exception_unit at 16( 743) + 0 on 3172;
+  architecture behavioural of exception_unit at 29( 974) + 0 on 3173;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/datamem.vhd" "ec4219e7fe321598dca8677108f239a53ddd7c66" "20220916035703.996":
+  entity datamem at 1( 0) + 0 on 3176;
+  architecture rtl of datamem at 17( 369) + 0 on 3177;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/debug_regbank.vhd" "64148ecbd3b14eeb1edac4b6fb6d16e476263e56" "20220916035704.015":
+  entity debug_regbank at 5( 84) + 0 on 3180;
+  architecture behavioural of debug_regbank at 15( 249) + 0 on 3181;
+file . "datapath_TB.vhd" "6fdd0f57d4495c7f8501e49178924562ce6d6309" "20220916035704.035":
+  entity datapath_tb at 4( 34) + 0 on 3184;
+  architecture test of datapath_tb at 14( 199) + 0 on 3185;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/ADDER_N.vhd" "43a47d06bfa8af21ec594f9571cdb096952d3778" "20220916035703.875":
+  entity adder_n at 2( 46) + 0 on 3130;
+  architecture behavioral of adder_n at 15( 356) + 0 on 3131;
+file / "/home/agrael/pierpaolo/cafp/hardware/riscV_pipeline/divider.vhd" "206b5f75ca80bd53cc2146d97c61efbb0be92af3" "20220916035703.963":
+  entity divider at 12( 516) + 0 on 3164;
+  architecture behavioural of divider at 33( 976) + 0 on 3165;

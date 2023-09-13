@@ -1,0 +1,23 @@
+
+multi.o:     file format elf64-littleriscv
+
+
+Disassembly of section .text:
+
+0000000000000000 <main>:
+   0:	fd010113          	addi	sp,sp,-48
+   4:	02813423          	sd	s0,40(sp)
+   8:	03010413          	addi	s0,sp,48
+   c:	00400793          	li	a5,4
+  10:	fef43423          	sd	a5,-24(s0)
+  14:	00700793          	li	a5,7
+  18:	fef43023          	sd	a5,-32(s0)
+  1c:	fe843703          	ld	a4,-24(s0)
+  20:	fe043783          	ld	a5,-32(s0)
+  24:	02f707b3          	mul	a5,a4,a5
+  28:	fcf43c23          	sd	a5,-40(s0)
+  2c:	00000793          	li	a5,0
+  30:	00078513          	mv	a0,a5
+  34:	02813403          	ld	s0,40(sp)
+  38:	03010113          	addi	sp,sp,48
+  3c:	00008067          	ret
