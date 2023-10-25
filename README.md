@@ -1,5 +1,5 @@
 # risc-V_5-stage_int_pipeline
-Project done for didactic purpose. There is an explicative pdf in the related folder.
+This project was created for didactic purpose to learn VHDL and how computer processors work through a RISC-V-ISA based pipeline. There is an explicative pdf in the related folder.
 
 Abstract
 
